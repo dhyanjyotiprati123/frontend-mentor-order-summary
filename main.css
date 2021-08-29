@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Red+Hat+Display:wght@400;500;700;900&display=swap");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 80%;
+  height: 80vh;
+  -webkit-box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
+  position: relative;
+  background: #e0e8ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.container-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.container-inner {
+  position: relative;
+  z-index: 2;
+  width: 40rem;
+  height: 60rem;
+  border-radius: 1rem;
+  background: #f5f7ff;
+}
+
+.container-figure {
+  width: 100%;
+}
+
+.container-hero {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.container-summary {
+  padding: 3rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+.container-plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #ebf0ff;
+  padding: 1.2rem 2rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2rem;
+}
+
+.container-price {
+  font-size: 1.4rem;
+}
+
+.container-link {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.main-heading {
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: 900;
+}
+
+.para {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 80%;
+  font-weight: 500;
+}
+
+.btn {
+  border: none;
+  width: 80%;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  background: #3829e0;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 5px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  -webkit-box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.15);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.cancel {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 1rem;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+/*# sourceMappingURL=main.css.map */
